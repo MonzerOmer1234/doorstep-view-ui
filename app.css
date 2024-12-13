@@ -1,0 +1,227 @@
+htm,
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.my-hero {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(30deg, #414149 11%, #42424AC9 79%),
+        url(./public/door-bg.jpeg);
+    background-size: cover;
+}
+
+.my-logo {
+    margin-right: 40px;
+}
+
+a {
+    color: white !important;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar-toggler{
+    background-color: #FE8917;
+}
+
+.nav-btn {
+    margin-right: 150px;
+}
+
+.nav-btn1 {
+    background-color: #FE8917;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.nav-btn2 {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.my-header {
+    margin-top: 30px;
+    margin: 30px;
+    width: 500px;
+}
+@media screen and (max-width: 555px) {
+    .my-header{
+        max-width: 270px;
+    }
+    .sol-row {
+        margin-left: 60px !important;
+    }
+    .why-us{
+        font-size: 18px !important;
+    }
+}
+
+.heading {
+    font-weight: 500;
+    color: white;
+}
+
+.h-body {
+    margin-top: 20px;
+    color: white;
+}
+
+.h-btn {
+    margin-top: 25px;
+    background-color: #FE8917;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.about-us {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about-txt p {
+    font-size: 16px;
+}
+
+.custom-color {
+    background-color: #fe8917;
+    width: 100%;
+    height: 20px;
+}
+
+.sol-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol-dev {
+    height: 350px;
+    width: 330px;
+    background-color: #dfdfe1;
+}
+.sol-img:hover{
+    transform: scale(1.12);
+    transition: 400ms;
+        
+}
+
+@media screen and (max-width : 767px) {
+    .sol-dev{
+        height: 320px;
+    }
+    .sol-row{
+        margin-left: 100px;
+    }
+    .sol-img{
+        width: 190px;
+        height: 190px;
+    }
+    .my-btn{
+        width: 190px !important;
+        height: 40px !important;
+        font-size: medium !important;
+    }
+    .why-us{
+        height: 500px !important;
+    }
+    
+}
+
+.sol-img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 9%;
+}
+
+.why-us {
+    margin-top: 180px;
+    margin-bottom: 300px;
+    font-size: 20px;
+    width: 80%;
+    height: 400px;
+}
+@media screen and (max-width: 450px) {
+    .why-us{
+        height: 600px !important;
+    }
+    .sol-row {
+        margin-left: 30px !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .sol-row {
+        margin-left: 10px !important;
+    }
+}
+@media screen and (max-width : 322px) {
+    .why-us{
+        height: 650px !important;
+        font-size: 17px !important;
+    }
+    .sol-row {
+        margin-left: 15px !important;
+    }
+    .my-header {
+        max-width: 200px;
+    }
+    .my-hero{
+        height: 650px;
+    }
+    .sol-dev {
+        height: 240px;
+        width: 230px;
+    }
+    .sol-img {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+.my-form {
+    width: 70%;
+    background-color: #dfdfe1;
+    padding: 5%;
+}
+
+::placeholder {
+    color: rgb(240, 233, 233);
+    opacity: 0.9;
+}
+
+.my-input {
+    height: 45px;
+}
+
+.my-btn {
+    background-color: #fea34a;
+    color: white;
+    width: 243px;
+    height: 50px;
+    font-size: larger;
+}
+
+.my-footer {
+    background-color: #42424a;
+    height: 350px;
+    min-width: 100% !important;
+}
+
+.footer-txt {
+    background-color: #42424a;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
