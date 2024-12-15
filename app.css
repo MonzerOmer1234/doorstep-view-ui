@@ -88,9 +88,9 @@ a {
 }
 
 .sol-cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .sol-dev {
@@ -167,6 +167,12 @@ a {
 
 /* ------------------ Responsivness here ------------ */
 @media screen and (max-width : 767px) {
+    .nav-btn2{
+        margin-left: 8px !important;
+    }
+    .nav-btn1{
+        margin-left: 15px !important;
+    }
     .sol-dev {
         height: 320px;
     }
@@ -215,6 +221,11 @@ a {
     .sol-row {
         margin-left: 20px !important;
     }
+    .form-btn {
+        width: 100px !important;
+        height: 35px !important;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -255,12 +266,6 @@ a {
 
     .my-form {
         width: 80% !important;
-    }
-
-    .form-btn{
-        width: 120px !important;
-        height: 38px !important;
-        font-size: medium !important;
     }
 
     .my-input {
