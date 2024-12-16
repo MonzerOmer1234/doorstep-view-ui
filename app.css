@@ -12,6 +12,9 @@ body {
     background-size: cover;
     padding: 10px;
 }
+.product-nav{
+    height: 150px !important;
+}
 
 .my-logo {
     margin-right: 40px;
@@ -302,6 +305,99 @@ a {
     }
 }
 
+/* product 1 styles */
+@media (max-width : 991px){
+
+    .product-image-div img{
+       width: 400px !important;
+       height: 400px !important;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       display: block;
+    }
+}
+@media (max-width : 460px){
+
+    .product-image-div img{
+       width: 200px !important;
+       height: 200px !important;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       display: block;
+    }
+}
+.fingerpring-header{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FE8917;
+}
+@media (max-width:767px){
+    .fingerpring-header{
+        font-size: 30px;
+        
+    }
+}
+.fingerpring-p{
+    padding-left: 46px;
+    font-size: 25px;
+    line-height: 44.5px;
+    color: #42424A;
+}
+@media (max-width : 767px){
+    .fingerpring-p{
+       padding-left: 20px;
+       font-size: 18px;
+    }
+}
+.fingerpring-imgs-div{
+    padding-left: 46px;
+}
+@media(max-width : 767px){
+    .fingerpring-imgs-div{
+        justify-content: center;
+    }
+}
+@media (max-width : 576px){
+    .fingerpring-imgs-div{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .fingerpring-imgs-div div{
+        width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.fingerpring-imgs-div div {
+    width: 100px;
+    height: 100px;
+}
+.fingerpring-imgs-div div img{
+    width: 100%;
+    height: 100%;
+}
+
+.item-details{
+   
+   position: relative;
+   left: 30px;
+
+}
+.item-details h2{
+    font-weight: 700;
+   font-size: 20px;
+   line-height: 38.4px;
+}
+.item-details ul li{
+    width: 95%;
+}
+@media(max-width : 400px){
+    .item-details ul li{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 286px) {
     .sol-row {
         margin-left: 4px !important;
@@ -313,3 +409,5 @@ a {
         margin-left: 0px !important;
     }
 }
+
+
